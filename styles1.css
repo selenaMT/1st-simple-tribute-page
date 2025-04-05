@@ -3,7 +3,11 @@ img {
   padding: 10px 20px;
   border-radius: 40px;
 }
-#img-div {
+.pic {
+  display: flex;
+  justify-content: center;
+}
+.img-div {
   background-color: #dfdfe2;
   display: flex;
   justify-content: center;
@@ -11,6 +15,8 @@ img {
   padding: 20px 30px;
   padding-bottom: 0px;
   font-family: Papyrus;
+  height: 50%;
+  width: 70%;
 }
 #title {
   text-align: center;
@@ -52,7 +58,7 @@ div.navigation li {
   padding: 5px 10px;
   font-weight: normal;
   background-color: #dfdfe2;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Courier New", Courier, monospace;
 }
 a {
